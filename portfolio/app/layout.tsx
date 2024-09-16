@@ -5,9 +5,9 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({
-  subsets: ["latin"], // Choose the subset you need, e.g., latin
-  variable: "--font-inter", // Set a CSS variable for the font
-  display: "swap", // Optional, controls font loading behavior
+  subsets: ["latin"], 
+  variable: "--font-inter",
+  display: "swap", 
 });
 
 export const metadata: Metadata = {
